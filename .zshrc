@@ -74,6 +74,8 @@ plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
+source ~/.zsh_profile
+
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
@@ -102,7 +104,5 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-
-source ~/.zsh_profile
 
 #eval "$(starship init zsh)"
