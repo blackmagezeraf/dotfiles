@@ -38,13 +38,14 @@ export STARSHIP_CONFIG=$HOME/.config/starship/starship.toml
 # path+=('/home/dog/.local/share/nvim/bin')
 
 # Prepend To PATH
-path=('/home/dog/.local/share/nvim/bin' $path)
+# path=('/home/dog/.local/share/nvim/bin' $path)
 # export PATH=/home/dog/.local/share/nvim/bin:$PATH
 
 addToPathFront $HOME/.local/scripts
 addToPathFront $HOME/.local/bin
 addToPathFront $HOME/.local/n/bin/
 addToPathFront $HOME/.local/go/bin
+addToPathFront $HOME/.local/share/nvim/bin
 
 # Where should I put you?
 bindkey -s ^f "tmux-sessionizer\n"
