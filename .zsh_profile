@@ -32,7 +32,6 @@ addToPathFront() {
 # export N_PREFIX="$HOME/.local/n"
 # export DOTFILES=$HOME/.dotfiles
 # export BOGART=$HOME/work/bogart
-export STARSHIP_CONFIG=$HOME/.config/starship/starship.toml
 
 # Append To PATH
 # path+=('/home/dog/.local/share/nvim/bin')
