@@ -102,4 +102,7 @@ source ~/.zsh_profile
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# Aliases
+alias update="sudo apt update && sudo apt upgrade -y"
+
 #eval "$(starship init zsh)"
