@@ -1,0 +1,16 @@
+window-vsync = true
+window-decoration = false
+
+theme = tokyonight
+
+font-feature = -liga
+
+font-size = 13
+font-family = "Iosevka Nerd Font Mono"
+font-style = Medium
+
+cursor-style = block
+cursor-style-blink = true
+
+background-opacity = 0.9
+background-blur-radius = 20

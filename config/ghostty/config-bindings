@@ -1,0 +1,4 @@
+keybind = ctrl+s=new_split:right
+keybind = ctrl+shift+s=new_split:down
+
+keybind = ctrl+shift+k=toggle_secure_input

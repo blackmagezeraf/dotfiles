@@ -1,0 +1,9 @@
+config-file = config-appearance
+config-file = config-bindings
+
+# Important if you want to set cursor to block
+shell-integration-features = no-cursor
+
+scrollback-limit = 10000
+shell-integration = zsh
+window-inherit-working-directory = true
