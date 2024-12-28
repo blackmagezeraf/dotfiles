@@ -5,8 +5,9 @@ theme = tokyonight
 
 font-feature = -liga
 
-font-size = 13
-font-family = "Iosevka Nerd Font Mono"
+font-size = 12
+# font-family = "Iosevka Nerd Font Mono"
+font-family = "CaskaydiaCove Nerd Font Mono"
 font-style = Medium
 
 cursor-style = block
