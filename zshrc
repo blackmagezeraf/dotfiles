@@ -103,4 +103,4 @@ source $ZSH/oh-my-zsh.sh
 # For a full list of active aliases, run `alias`.
 alias zshconfig="nvim ~/.zshrc"
 alias ohmyzsh="nvim ~/.oh-my-zsh"
-alias update="sudo pacman -Syu && yay -Syu && flatpak update"
+alias update="sudo pacman -Syu --needed --noconfirm; yay -Syu --needed --noconfirm; flatpak update"
