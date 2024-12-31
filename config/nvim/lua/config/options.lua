@@ -11,3 +11,4 @@ o.expandtab = false
 o.autoindent = true
 o.relativenumber = true
 o.winfixwidth = true
+o.pumblend = 0
