@@ -11,13 +11,14 @@
 
 set $mod Mod4
 set $modR Mod4+Return
+set $modS Mod4+Shift
 set $modSR Mod4+Shift+Return
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
 # font pango:CodeNewRoman Nerd Font 8
 # font pango:Iosevka NFM 8
-font pango:Noto Sans 7
+font pango:CaskaydiaCove Nerd Font Mono 9
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -57,7 +58,7 @@ tiling_drag modifier titlebar
 
 # start a terminal
 # bindsym $mod+Return exec wezterm
-bindsym $mod+Return exec ghostty
+bindsym $modR exec ghostty
 
 # start firefox
 # bindsym $modSR exec firefox -p
@@ -87,16 +88,16 @@ bindsym $mod+Up focus up
 bindsym $mod+Right focus right
 
 # move focused window
-bindsym $mod+Shift+h move left
-bindsym $mod+Shift+j move down
-bindsym $mod+Shift+k move up
-bindsym $mod+Shift+l move right
+bindsym $modS+h move left
+bindsym $modS+j move down
+bindsym $modS+k move up
+bindsym $modS+l move right
 
 # alternatively, you can use the cursor keys:
-bindsym $mod+Shift+Left move left
-bindsym $mod+Shift+Down move down
-bindsym $mod+Shift+Up move up
-bindsym $mod+Shift+Right move right
+bindsym $modS+Left move left
+bindsym $modS+Down move down
+bindsym $modS+Up move up
+bindsym $modS+Right move right
 
 # split in horizontal orientation
 bindsym $mod+Alt+h split h
@@ -113,7 +114,7 @@ bindsym $mod+w layout tabbed
 bindsym $mod+e layout toggle split
 
 # toggle tiling / floating
-bindsym $mod+Shift+space floating toggle
+bindsym $modS+space floating toggle
 
 # change focus between tiling / floating windows
 bindsym $mod+space focus mode_toggle
@@ -150,23 +151,23 @@ bindsym $mod+9 workspace number $ws9
 bindsym $mod+0 workspace number $ws10
 
 # move focused container to workspace
-bindsym $mod+Shift+1 move container to workspace number $ws1
-bindsym $mod+Shift+2 move container to workspace number $ws2
-bindsym $mod+Shift+3 move container to workspace number $ws3
-bindsym $mod+Shift+4 move container to workspace number $ws4
-bindsym $mod+Shift+5 move container to workspace number $ws5
-bindsym $mod+Shift+6 move container to workspace number $ws6
-bindsym $mod+Shift+7 move container to workspace number $ws7
-bindsym $mod+Shift+8 move container to workspace number $ws8
-bindsym $mod+Shift+9 move container to workspace number $ws9
-bindsym $mod+Shift+0 move container to workspace number $ws10
+bindsym $modS+1 move container to workspace number $ws1
+bindsym $modS+2 move container to workspace number $ws2
+bindsym $modS+3 move container to workspace number $ws3
+bindsym $modS+4 move container to workspace number $ws4
+bindsym $modS+5 move container to workspace number $ws5
+bindsym $modS+6 move container to workspace number $ws6
+bindsym $modS+7 move container to workspace number $ws7
+bindsym $modS+8 move container to workspace number $ws8
+bindsym $modS+9 move container to workspace number $ws9
+bindsym $modS+0 move container to workspace number $ws10
 
 # reload the configuration file
-bindsym $mod+Shift+c reload
+bindsym $modS+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
-bindsym $mod+Shift+r restart
+bindsym $modS+r restart
 # exit i3 (logs you out of your X session)
-bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
+bindsym $modS+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
