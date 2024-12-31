@@ -7,3 +7,6 @@ shell-integration-features = no-cursor
 scrollback-limit = 10000
 shell-integration = zsh
 window-inherit-working-directory = true
+
+auto-update = download
+auto-update-channel = stable
