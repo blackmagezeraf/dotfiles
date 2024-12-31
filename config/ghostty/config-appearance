@@ -4,13 +4,14 @@ window-padding-balance = true
 window-padding-x = 5
 window-padding-y = 5
 
-theme = tokyonight
+theme = rose-pine-moon
 
-font-feature = -liga
+# font-feature = -liga
 
-font-size = 16
+font-size = 14
 # font-family = "Iosevka Nerd Font Mono"
-font-family = "CaskaydiaCove Nerd Font Mono"
+# font-family = "CaskaydiaCove Nerd Font Mono"
+font-family = "FiraCode Nerd Font Mono"
 # font-style = Medium
 
 cursor-style = block
