@@ -17,5 +17,5 @@ font-family = "FiraCode Nerd Font Mono"
 cursor-style = block
 cursor-style-blink = true
 
-background-opacity = 0.8
+background-opacity = 0.9
 background-blur-radius = 20
