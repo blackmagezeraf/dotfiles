@@ -73,7 +73,7 @@ zstyle ':omz:update' frequency 1
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 # plugins=(git)
-plugins=(git zoxide zsh-autosuggestions)
+plugins=(git zoxide zsh-autosuggestions fast-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
