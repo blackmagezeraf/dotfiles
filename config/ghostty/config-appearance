@@ -8,14 +8,14 @@ theme = rose-pine
 
 # font-feature = -liga
 
-font-size = 14
+font-size = 13
 # font-family = "Iosevka Nerd Font Mono"
 # font-family = "CaskaydiaCove Nerd Font Mono"
-font-family = "FiraCode Nerd Font Mono"
+font-family = "FiraCode Nerd Font"
 # font-style = Medium
 
 cursor-style = block
 cursor-style-blink = true
 
-background-opacity = 0.9
+background-opacity = 0.85
 background-blur-radius = 20
