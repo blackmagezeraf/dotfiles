@@ -1,1 +1,0 @@
-export WORK=$HOME/work/

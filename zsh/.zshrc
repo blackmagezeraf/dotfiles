@@ -1,8 +1,3 @@
-# If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
-export PATH=$HOME/bin/:$PATH
-export PATH=$HOME/github/Odin/:$PATH
-
 # Path to your Oh My Zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 # export ODIN_CLANG_PATH="/usr/bin/clang++-18"
@@ -78,7 +73,6 @@ zstyle ':omz:update' frequency 1
 # plugins=(git)
 plugins=(git z zsh-autosuggestions fast-syntax-highlighting)
 
-source $HOME/.zsh_profile
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
