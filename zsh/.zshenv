@@ -13,6 +13,4 @@ export XDG_CONFIG_HOME=$HOME/.config
 
 VIM="nvim"
 
-# Starship Config Location
-# export STARSHIP_CONFIG=$HOME/.config/starship/starship.toml
 . "$HOME/.cargo/env"

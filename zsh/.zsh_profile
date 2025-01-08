@@ -1,9 +1,3 @@
-# PERSONAL=$XDG_CONFIG_HOME/personal
-# source $PERSONAL/env
-# for i in `find -L $PERSONAL`; do
-#     source $i
-# done
-
 addToPathFront() {
     if [[ "$PATH" != *"$1"* ]]; then
         export PATH=$1:$PATH
@@ -16,10 +10,11 @@ addToPathFront() {
 # addToPathFront $HOME/.local/go/bin/
 # addToPathFront $HOME/.local/share/nvim/bin/
 # addToPathFront $HOME/.local/odin/
-addToPathFront $HOME/bin/
-addToPathFront $HOME/github/Odin/
-addToPathFront $HOME/.cargo/bin/
-addToPathFront $HOME/github/Zig/
+export PATH=/home/dogtown/bin/:$PATH
+export PATH=/home/dogtown/.cargo/bin/:$PATH
+export PATH=/home/dogtown/github/Odin/:$PATH
+export PATH=/home/dogtown/github/Zig/:$PATH
+
 
 # Personal Path Variables
 export WORK=$HOME/work/

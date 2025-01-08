@@ -74,6 +74,7 @@ zstyle ':omz:update' frequency 1
 plugins=(git z zsh-autosuggestions fast-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
+source $HOME/.zsh_profile
 
 # User configuration
 
