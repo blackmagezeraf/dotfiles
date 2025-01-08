@@ -19,6 +19,7 @@ addToPathFront() {
 addToPathFront $HOME/bin/
 addToPathFront $HOME/github/Odin/
 addToPathFront $HOME/.cargo/bin/
+addToPathFront $HOME/github/Zig/
 
 # Personal Path Variables
 export WORK=$HOME/work/
