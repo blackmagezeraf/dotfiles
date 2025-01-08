@@ -10,10 +10,10 @@ addToPathFront() {
 # addToPathFront $HOME/.local/go/bin/
 # addToPathFront $HOME/.local/share/nvim/bin/
 # addToPathFront $HOME/.local/odin/
-export PATH=/home/dogtown/bin/:$PATH
-export PATH=/home/dogtown/.cargo/bin/:$PATH
-export PATH=/home/dogtown/github/Odin/:$PATH
-export PATH=/home/dogtown/github/Zig/:$PATH
+addToPathFront $HOME/bin/:$PATH
+addToPathFront $HOME/.cargo/bin/:$PATH
+addToPathFront $HOME/github/Odin/:$PATH
+addToPathFront $HOME/github/Zig/:$PATH
 
 
 # Personal Path Variables
