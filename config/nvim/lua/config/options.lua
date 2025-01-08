@@ -4,11 +4,12 @@
 local o = vim.o
 
 o.wrap = true
-o.tabstop = 8
-o.shiftwidth = 8
-o.softtabstop = 8
+o.tabstop = 4
+o.shiftwidth = 4
+o.softtabstop = 4
 o.expandtab = false
 o.autoindent = true
 o.relativenumber = true
 o.winfixwidth = true
 o.pumblend = 0
+o.wrapmargin = 120
