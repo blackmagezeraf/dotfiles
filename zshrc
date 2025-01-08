@@ -73,8 +73,9 @@ zstyle ':omz:update' frequency 1
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 # plugins=(git)
-plugins=(git zoxide zsh-autosuggestions fast-syntax-highlighting)
+plugins=(git z zsh-autosuggestions fast-syntax-highlighting)
 
+source $HOME/.zsh_profile
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
@@ -104,4 +105,5 @@ export LANG=en_US.UTF-8
 alias vim=nvim
 alias zshconfig="vim ~/.zshrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
-alias update="sudo pacman -Syu --needed --noconfirm; yay -Syu --needed --noconfirm; flatpak update"
+# alias update="sudo pacman -Syu --needed --noconfirm; yay -Syu --needed --noconfirm; flatpak update"
+alias update="sudo apt update && apt upgrade -y && flatpak update"
