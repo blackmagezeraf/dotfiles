@@ -104,4 +104,4 @@ alias vim=nvim
 alias zshconfig="vim ~/.zshrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
 # alias update="sudo pacman -Syu --needed --noconfirm; yay -Syu --needed --noconfirm; flatpak update"
-alias update="sudo apt update && apt upgrade -y && flatpak update"
+alias update="sudo apt update && sudo apt upgrade -y && flatpak update"
