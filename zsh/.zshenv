@@ -13,4 +13,4 @@ export XDG_CONFIG_HOME=$HOME/.config
 
 VIM="nvim"
 
-. "$HOME/.cargo/env"
+source $HOME/.cargo/env
