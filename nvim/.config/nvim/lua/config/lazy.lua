@@ -28,6 +28,12 @@ require("lazy").setup({
 			"LazyVim/LazyVim",
 			import = "lazyvim.plugins",
 		},
+		{
+			"snacks.nvim",
+			opts = {
+				scroll = { enabled = false },
+			},
+		},
 		{ import = "plugins" },
 	},
 	defaults = {
