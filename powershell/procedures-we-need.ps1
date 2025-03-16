@@ -21,3 +21,14 @@ function convertToMp3
 function vsvars {
 	Import-VisualStudioVars -Architecture x64
 }
+
+function cp-mk {
+    param (
+        [string]$sourcePath,
+        [string]$destinationPath
+    )
+    if (-Not (Test-Path $destinationPath)) {
+        New-Item -Path $destinationPath -ItemType Directory
+    }
+    Copy-Item -Path $sourcePath -Destination $destinationPath -Recurse -Force
+}
