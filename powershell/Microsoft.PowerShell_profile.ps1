@@ -15,4 +15,4 @@ $env:PROFILE_PATH = "C:/Users/alihu/Documents/PowerShell/"
 # Set-PSReadLineOption -PredictionSource None
 
 # Initializing oh-my-posh
-oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH/dracula.omp.json" | Invoke-Expression
+oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH/robbyrussell.omp.json" | Invoke-Expression
