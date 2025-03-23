@@ -1,4 +1,4 @@
-colorscheme_chooser = 1
+colorscheme_chooser = 0
 if colorscheme_chooser == 1 then
 	-- TokyoNight colorscheme
 	return {

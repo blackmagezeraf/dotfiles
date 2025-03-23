@@ -9,7 +9,7 @@ local config = wezterm.config_builder()
 config.prefer_egl = true
 config.max_fps = 60
 config.window_decorations = "RESIZE"
-config.window_background_opacity = 0.95
+config.window_background_opacity = 0.85
 config.hide_tab_bar_if_only_one_tab = false
 config.tab_bar_at_bottom = true
 config.use_fancy_tab_bar = false
@@ -23,7 +23,6 @@ end)
 config.default_prog = { "pwsh.exe", "-NoLogo" }
 
 config.color_scheme = "rose-pine"
--- config.font = wezterm.font("JetBrainsMono NFM")
 config.font = wezterm.font("0xProto Nerd Font Mono")
 config.font_size = 14
 
