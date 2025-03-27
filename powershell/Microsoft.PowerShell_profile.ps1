@@ -5,10 +5,12 @@ $env:PROFILE_PATH = "C:/Users/alihu/Documents/PowerShell/"
 
 # Extra Sources
 . $env:PROFILE_PATH\ohmyposh-completion.ps1
-. $env:PROFILE_PATH\zola-completion.ps1
 . $env:PROFILE_PATH\procedures-we-need.ps1
 . $env:PROFILE_PATH\aliases-list.ps1
 . $env:PROFILE_PATH\env-variables.ps1
+. $env:PROFILE_PATH\zola-completion.ps1
+. $env:PROFILE_PATH\hugo-completion.ps1
+. $env:PROFILE_PATH\ghcli-completion.ps1
 
 
 # Disable Prediction in pwsh
