@@ -1,0 +1,25 @@
+[init]
+	defaultBranch = main
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[user]
+	name = Ali Hussain Abid
+	email = 31208110+blackmagezeraf@users.noreply.github.com
+	signingkey = E:/KeepassXC/pgp-keys/ssh/dogtown
+[safe]
+	directory = *
+[commit]
+	gpgsign = true
+[tag]
+	gpgsign = true
+[gpg]
+	format = ssh
+[credential]
+	helper = manager
+[core]
+	eol = lf
+	sshcommand = C:/Windows/System32/OpenSSH/ssh.exe
+	autocrlf = false

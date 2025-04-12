@@ -1,6 +1,6 @@
 # $env:Path += ";$env:LOCALAPPDATA/Programs/oh-my-posh/bin"
-$env:PATH += ";D:/dev/bin/"
-$env:PATH += ";D:/dev/repos/Odin/"
+$env:PATH += ";E:/dev/bin/"
+$env:PATH += ";E:/dev/git/Odin/"
 $env:PROFILE_PATH = "C:/Users/alihu/Documents/PowerShell/"
 
 # Extra Sources
@@ -18,3 +18,5 @@ $env:PROFILE_PATH = "C:/Users/alihu/Documents/PowerShell/"
 
 # Initializing oh-my-posh
 oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH/robbyrussell.omp.json" | Invoke-Expression
+
+vsvars && clear
