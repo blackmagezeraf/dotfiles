@@ -20,12 +20,11 @@ wezterm.on("gui-startup", function(cmd)
 	window:gui_window():maximize()
 end)
 
-config.default_prog = { "pwsh.exe", "-NoLogo", }
+config.default_prog = { "pwsh.exe", "-NoLogo" }
 
 config.color_scheme = "Tokyo Night"
--- config.font = wezterm.font("JetBrainsMono NFM")
 config.font = wezterm.font("0xProto Nerd Font Mono")
-config.font_size = 13
+config.font_size = 11
 
 -- Key Bindings
 config.keys = {
