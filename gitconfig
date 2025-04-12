@@ -8,7 +8,7 @@
 [user]
 	name = Ali Hussain Abid
 	email = 31208110+blackmagezeraf@users.noreply.github.com
-	signingkey = E:/KeepassXC/pgp-keys/ssh/dogtown
+	signingkey = C:/Users/alihu/.ssh/dogtown
 [safe]
 	directory = *
 [commit]
