@@ -23,3 +23,7 @@
 	eol = lf
 	sshcommand = C:/Windows/System32/OpenSSH/ssh.exe
 	autocrlf = false
+[pull]
+	rebase = true
+[http]
+	sslbackend = schannel
