@@ -1,7 +1,7 @@
 # $env:Path += ";$env:LOCALAPPDATA/Programs/oh-my-posh/bin"
 $env:PATH += ";E:/dev/bin/"
 $env:PATH += ";E:/dev/git/Odin/"
-$env:PROFILE_PATH = "C:/Users/alihu/Documents/PowerShell/"
+$env:PROFILE_PATH = "C:/Users/alihu/Documents/PowerShell"
 
 # Extra Sources
 . $env:PROFILE_PATH\ohmyposh-completion.ps1
