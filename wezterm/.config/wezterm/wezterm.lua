@@ -24,7 +24,7 @@ config.default_prog = { "pwsh.exe", "-NoLogo" }
 
 config.color_scheme = "Tokyo Night"
 config.font = wezterm.font("0xProto Nerd Font Mono")
-config.font_size = 12
+config.font_size = 14
 
 -- Key Bindings
 config.keys = {
