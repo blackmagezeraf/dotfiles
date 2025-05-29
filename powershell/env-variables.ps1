@@ -1,5 +1,7 @@
 $env:GIT = "E:/dev/git/"
-$env:GAMEDEV = "E:/dev/gamedev/"
+$env:UNITY_PROJECTES = "E:/dev/unity-projects/"
+$env:UNREAL_PROJECTES = "E:/dev/unreal-engine-projects/"
+$env:GODOT_PROJECTES = "E:/dev/godot-projects/"
 $env:PERSONAL = "E:/dev/personal/"
 $env:DOWNLOAD = "E:/Downloads/"
 $env:TERMINAL_SETTINGS = "C:/Users/alihu/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/settings.json"
