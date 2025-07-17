@@ -10,6 +10,8 @@ config.prefer_egl = true
 config.max_fps = 60
 config.window_decorations = "RESIZE"
 config.window_background_opacity = 0.90
+-- Text Background will be opaque to ensure readability.
+config.text_background_opacity = 1.0
 config.hide_tab_bar_if_only_one_tab = false
 config.tab_bar_at_bottom = true
 config.use_fancy_tab_bar = false

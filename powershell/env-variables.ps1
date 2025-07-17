@@ -1,4 +1,5 @@
 $env:GIT = "E:/dev/git/"
+$env:DEV = "E:/dev/"
 $env:UNITY_PROJECTES = "E:/dev/unity-projects/"
 $env:UNREAL_PROJECTES = "E:/dev/unreal-engine-projects/"
 $env:GODOT_PROJECTES = "E:/dev/godot-projects/"
